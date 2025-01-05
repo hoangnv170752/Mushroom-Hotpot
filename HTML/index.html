@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chủ - Nhà hàng lẩu nấm</title>
+    <link rel="shortcut icon" href="./assets/ico/web.ico" type="image/x-icon">
+    <!--CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="./assets/ico/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <link rel="stylesheet" href="./assets/css/style-home.css">
+    <!--JS-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!--Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <!-- Custom header start -->
+        <header class="header">
+            <a href="index.html" class="logo">
+                <i class="fas fa-utensils"></i>
+                LẨU NẤM
+            </a>
+            <nav class="navbar">
+                <a href="index.html" class="active">Trang chủ</a>
+                <a href="menu.html">Thực đơn</a>
+                <a href="table.html">Đặt bàn</a>
+                <a href="about.html">Giới thiệu</a>
+                <a href="contact.html">Liên hệ</a>
+                <a href="login.html">Đăng nhập</a>
+            </nav>
+            <div class="icons">
+                <i class="fas fa-bars" id="menu-bars"></i>
+                <div class="fas fa-search" id="user-login" title="Tìm kiếm" data-toggle="modal" data-target="#modelId"></div>
+            </div>
+
+             <!--Back to home-->
+            <button onclick="topFunction()" id="myBtn" title="Lên đầu trang"><i class="fas fa-arrow-up"></i></button>
+        </header>
+        <!-- Modal -->
+        <div class="modal-search">
+            <div class="modal fade" id="modelId" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+                <div class="modal-dialog" role="document" >
+                    <div class="modal-content modal-sch-main">
+                        <div class="modal-body">
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control search-box" placeholder="Bạn cần tìm kiếm những gì?" aria-label="Bạn cần tìm kiếm những gì?" aria-describedby="basic-addon2">
+                                <div class="input-group-append">
+                                    <button class="btn btn-outline-secondary search-btn" type="button" title="Tìm kiếm">
+                                        <i class="fas fa-search"></i>
+                                    </button>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Custom header end -->
+
+        <!-- Slider start -->
+        <section class="slider">
+            <div class="text-content">
+                
+                
+                <a href="table.html" class="btn slider-btn">Đặt Bàn Ngay</a>
+            </div>
+        </section>
+        <!-- Slider end -->
+
+        <!--  Banner start-->
+        
+        <!--  Banner end -->
+
+        <!-- Popular Menu -->
+        <section class="popular-menu-section">
+            <div class="popular-menu-content">
+                <h2>MENU</h2>
+                <span>Trải nghiệm những món ăn mới hấp dẫn từ đầu bếp của chúng tôi.</span>
+                <div class="popular-menu-box">
+                    <div class="image-slider">
+                        <div class="image-items">
+                            <div class="image">
+                                <img src="./assets/img/popular-menu/Cach-nau-lau-chay-thap-cam.jpg" alt="">
+                            </div>
+                            <h3>Lẩu Nấm Gà</h3>
+                            <p>Set dành cho 5-6 người ăn.</p>
+                            <span>799.000đ</span>
+                            <a href="table.html" class="btn menu-btn">Đặt Ngay</a>
+                        </div>
+                        <div class="image-items">
+                            <div class="image">
+                                <img src="./assets/img/popular-menu/2023_10_22_638336124377252612_lau-nam.jpg" alt="" >
+                            </div>
+                            <h3>Lẩu Nấm Healthy</h3>
+                            <p>Set dành cho 2-4 người</p>
+                            <span>399.000đ</span>
+                            <a href="table.html" class="btn menu-btn">Đặt Ngay</a>
+                        </div>
+                        <div class="image-items">
+                            <div class="image">
+                                <img src="./assets/img/popular-menu/cach-nau-lau-nam-4.jpg" alt="" >
+                            </div>
+                            <h3>Lẩu Nấm Bò</h3>
+                            <p>Set dành cho 4-6 người.</p>
+                            <span>900.000đ</span>
+                            <a href="table.html" class="btn menu-btn">Đặt Ngay</a>
+                        </div>
+                        <div class="image-items">
+                            <div class="image">
+                                <img src="./assets/img/popular-menu/3787083906_hoc-ngay-2-cach-lam-lau-nam-ngon-hon-nha-hang_thumb.jpg" alt="" >
+                            </div>
+                            <h3>Lẩu Nấm Gà 2</h3>
+                            <p>Set dành cho 2-3 người.</p>
+                            <span>299.000đ</span>
+                            <a href="table.html" class="btn menu-btn">Đặt Ngay</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="search-food">
+            <div class="grid">
+                <div class="grid__row search-food-title">
+                    <h5>HÌNH ẢNH NỔI BẬT</h5>
+                    <a href="" class="btn">
+                        Tất cả
+                        <i class="fas fa-angle-right"></i>
+                    </a>
+                </div>
+                <div class="grid__row">
+                    <div class="grid__col-6 search-food-items">
+                        <img src="./assets/img/search/2023_10_22_638336124377252612_lau-nam.jpg" alt="">
+                        <h5>NHÀ</h5>
+                    </div>
+                    <div class="grid__col-6 search-food-items">
+                        <img src="./assets/img/search/3787083906_hoc-ngay-2-cach-lam-lau-nam-ngon-hon-nha-hang_thumb.jpg" alt="">
+                        <h5>HÀNG</h5>
+                    </div>
+                    <div class="grid__col-6 search-food-items">
+                        <img src="./assets/img/search/cach-nau-lau-nam_1.jpg" alt="">
+                        <h5>LẨU</h5>
+                    </div>
+                    <div class="grid__col-6 search-food-items">
+                        <img src="./assets/img/search/Cach-nau-lau-chay-thap-cam.jpg" alt="">
+                        <h5>NẤM</h5>
+                    </div>
+                    <div class="grid__col-6 search-food-items">
+                        <img src="./assets/img/search/cach-nau-lau-nam-4.jpg" alt="">
+                        <h5>SỐ</h5>
+                    </div>
+                    <div class="grid__col-6 search-food-items">
+                        <img src="./assets/img/search/lau-nam-chay.jpg" alt="">
+                        <h5>1</h5>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="service-section">
+            <div class=".grid service-box">
+                <div class="grid__row">
+                    <div class="grid__col-4">
+                        <div class="service-post">
+                            <img src="./assets/img/Service/icon1.png" alt="">
+                            <h3>KHAI XUÂN NHÂM DẦN CÙNG LẨU NẤM GIA KHÁNH</h3>
+                            <p>Nhà hàng lẩu nấm là một lựa chọn tốt cho những người vừa muốn có không gian ẩm thực sang trọng mà giá cả phải chăng.</p>
+                        </div>
+                    </div>
+                    <div class="grid__col-4">
+                        <div class="service-post">
+                            <img src="./assets/img/Service/icon2.png" alt="">
+                            <h3>LẨU NẤM GIỮ NÉT TRUYỀN THỐNG ẨM THỰC</h3>
+                            <p>Nhà hàng lẩu nấm là một lựa chọn tốt cho những người vừa muốn có không gian ẩm thực sang trọng mà giá cả phải chăng.</p>
+                        </div>
+                    </div>
+                    <div class="grid__col-4">
+                        <div class="service-post">
+                            <img src="./assets/img/Service/icon3.png" alt="">
+                            <h3>BÌNH THƯỜNG MỚI CỦA NGÀNH ẨM THỰC VIỆT NAM</h3>
+                            <p>Nhà hàng lẩu nấm là một lựa chọn tốt cho những người vừa muốn có không gian ẩm thực sang trọng mà giá cả phải chăng.</p>
+                        </div>
+                    </div>
+                    <div class="grid__col-4">
+                        <div class="service-post">
+                            <img src="./assets/img/Service/icon4.png" alt="">
+                            <h3>KHAI XUÂN NHÂM DẦN CÙNG LẨU NẤM</h3>
+                            <p>Nhà hàng lẩu nấm là một lựa chọn tốt cho những người vừa muốn có không gian ẩm thực sang trọng mà giá cả phải chăng.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+
+        <footer class="footer">
+            <div class="bg-footer">
+                <div class="grid">
+                    <div class="grid__row">
+                        <div class="grid__col-third">
+                            <div class="footer-contact">
+                                <h4>Liên hệ</h4>
+                                <p>
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    Số 3 Cầu Giấy, Đống Đa, HN
+                                </p>
+                                <p>
+                                    <i class="fas fa-phone-alt"></i>
+                                    1900 1900
+                                </p>
+                                <p>
+                                    <i class="fas fa-envelope"></i>
+                                    hotro@email.com
+                                </p>
+                            </div>
+
+                            <div class="footer-contact">
+                                <h4>Thời gian mở cửa</h4>
+                                <p>
+                                    Thứ 2 - Thứ 6: Từ 8:15 đến 22:00
+                                </p>
+                                <p>
+                                    Thứ 7: Từ 8:00 - 23:00
+                                </p>
+                                <p>
+                                    Chủ nhật: Từ 7:00 - 23:30
+                                </p>
+                            </div>
+                        </div>
+                        <div class="grid__col-third">
+                            <div class="footer-newswriter">
+                                <h4>Bảng tin</h4>
+                                <span>
+                                    <i class="fas fa-utensils"></i>
+                                    <a href="">nhà hàng lẩu nấm</a>
+                                </span>
+                                <p>
+                                    Nhà hàng lẩu nấm là một lựa chọn tốt cho những người vừa muốn có không gian ẩm thực sang trọng mà giá cả phải chăng. 
+                                </p>
+                                <span>8/11/2024</span>
+                            </div>
+
+                            <div class="footer-newswriter">
+                                <span>
+                                    <i class="fas fa-utensils"></i>
+                                    <a href="">nhà hàng lẩu nấm</a>
+                                </span>
+                                <p>
+                                    Hãy quay trở lại thưởng thức các món ăn tại Nhà hàng lẩu nấm đi thoai !! blink blink
+                                </p>
+                                <span>8/11/2024</span>
+                            </div>
+                        </div>
+                        <div class="grid__col-third">
+                            <div class="footer-gallery">
+                                <h4>Thư viện</h4>
+                                <div class="footer-gallery-img">
+                                    <a href="./assets/image/gallery/1.jpg">
+                                        <img src="./assets/img/gallery/1.jpg" alt="">
+                                    </a>
+                                    <a href="./assets/img/gallery/2.jpg">
+                                        <img src="./assets/img/gallery/2.jpg" alt="">
+                                    </a>
+                                    <a href="./assets/img/gallery/3.jpg">
+                                        <img src="./assets/img/gallery/3.jpg" alt="">
+                                    </a>
+                                    <a href="./assets/img/gallery/4.jpg">
+                                        <img src="./assets/img/gallery/4.jpg" alt="">
+                                    </a>
+                                    <a href="./assets/img/gallery/5.jpg">
+                                        <img src="./assets/img/gallery/5.jpg" alt="">
+                                    </a>
+                                    <a href="./assets/img/gallery/6.jpg">
+                                        <img src="./assets/img/gallery/6.jpg" alt="">
+                                    </a>
+                                    <a href="./assets/img/gallery/7.jpg">
+                                        <img src="./assets/img/gallery/7.jpg" alt="">
+                                    </a>
+                                    <a href="./assets/img/gallery/8.jpg">
+                                        <img src="./assets/img/gallery/8.jpg" alt="">
+                                    </a>
+                                    <a href="./assets/img/gallery/9.jpg">
+                                        <img src="./assets/img/gallery/9.jpg" alt="">
+                                    </a>
+                                    <a href="./assets/img/gallery/10.jpg">
+                                        <img src="./assets/img/gallery/10.jpg" alt="">
+                                    </a>
+                                    <a href="./assets/img/gallery/11.jpg">
+                                        <img src="./assets/img/gallery/11.jpg" alt="">
+                                    </a>
+                                    <a href="./assets/img/gallery/12.jpg">
+                                        <img src="./assets/img/gallery/12.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        
+    </div>
+
+    
+    
+
+
+
+    
+    <script 
+        type="text/javascript" 
+        src="https://code.jquery.com/jquery-1.7.1.min.js"
+    ></script>
+    <script
+        type="text/javascript"
+        src="https://code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+        type="text/javascript"
+        src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+        type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="./assets/js/app.js"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>

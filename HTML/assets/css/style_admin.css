@@ -1,0 +1,72 @@
+.fa-search,
+.fa-envelope,
+.fa-bell,
+.fa-tasks {
+  font-size: 1.7rem !important;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.icon__sup {
+  top: 10%;
+  right: 5px;
+  font-size: 1.2rem;
+  border: 3px solid red;
+  height: 26px;
+  line-height: 1.2rem;
+  border-radius: 9999px;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+}
+
+.form__search {
+  top: 6px;
+  right: 60px;
+  line-height: 30px;
+  border: 2px solid #ccc;
+}
+
+.input__search {
+  border: none;
+  outline: none;
+  padding-left: 10px;
+}
+
+.form__noti {
+  width: 300px;
+  border: 1px solid red;
+}
+
+.header {
+  height: 80px;
+  display: flex;
+  align-content: center;
+}
+.fa-comments,
+.fa-users,
+.fa-eye,
+.fa-shopping-cart {
+  font-size: 3.1rem;
+}
+
+
+.fa-shopping-cart {
+  color: rgb(27, 132, 218);
+}
+.fa-comments {
+  color: rgb(252, 199, 26);
+}
+
+.fa-users {
+  color: rgb(12, 238, 99);
+}
+
+.fa-eye {
+  color: rgb(214, 16, 16);
+}
+.item__lv-2:hover,
+.item__lv-1:hover {
+  background-color: #9B9B9B;
+}
+
